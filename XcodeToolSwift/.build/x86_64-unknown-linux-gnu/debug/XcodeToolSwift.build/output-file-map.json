@@ -1,0 +1,41 @@
+{
+  "": {
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/master.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/DataBase64.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/MacroUtils.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/StringWrapper.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/UIConstants.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/VersionCompare.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/XcodeToolSwift.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.swiftdeps"
+  }
+}

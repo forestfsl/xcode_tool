@@ -1,0 +1,820 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.xctest",
+      "packagePath" : "/workspace/XcodeToolSwift",
+      "productName" : "XcodeToolSwiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "XcodeToolSwiftPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.XcodeToolSwift-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/sources",
+      "importPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/DataBase64.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/MacroUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/StringWrapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/UIConstants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/VersionCompare.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/XcodeToolSwift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "XcodeToolSwift",
+      "moduleOutputPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwift.swiftmodule",
+      "objects" : [
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "xcodetoolswift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwift.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/DataBase64.swift",
+        "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/MacroUtils.swift",
+        "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/StringWrapper.swift",
+        "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/UIConstants.swift",
+        "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/VersionCompare.swift",
+        "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/XcodeToolSwift.swift"
+      ],
+      "tempsPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.XcodeToolSwiftPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/sources",
+      "importPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/XcodeToolSwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "XcodeToolSwiftPackageDiscoveredTests",
+      "moduleOutputPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "xcodetoolswift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/XcodeToolSwiftTests.swift",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift"
+      ],
+      "tempsPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.XcodeToolSwiftPackageTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/sources",
+      "importPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "XcodeToolSwiftPackageTests",
+      "moduleOutputPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftPackageTests.swiftmodule",
+      "objects" : [
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "xcodetoolswift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.XcodeToolSwiftTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/sources",
+      "importPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/DataBase64Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/MacroUtilsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/StringWrapperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/VersionCompareTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwift.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "XcodeToolSwiftTests",
+      "moduleOutputPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftTests.swiftmodule",
+      "objects" : [
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.swift.o",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "xcodetoolswift",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/DataBase64Tests.swift",
+        "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/MacroUtilsTests.swift",
+        "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/StringWrapperTests.swift",
+        "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/VersionCompareTests.swift"
+      ],
+      "tempsPath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "XcodeToolSwift" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "XcodeToolSwift",
+      "-package-name",
+      "xcodetoolswift",
+      "-incremental",
+      "-c",
+      "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/DataBase64.swift",
+      "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/MacroUtils.swift",
+      "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/StringWrapper.swift",
+      "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/UIConstants.swift",
+      "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/VersionCompare.swift",
+      "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/XcodeToolSwift.swift",
+      "-I",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "xcodetoolswift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "XcodeToolSwiftPackageDiscoveredTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "XcodeToolSwiftPackageDiscoveredTests",
+      "-package-name",
+      "xcodetoolswift",
+      "-incremental",
+      "-c",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/XcodeToolSwiftTests.swift",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "xcodetoolswift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "XcodeToolSwiftPackageTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "XcodeToolSwiftPackageTests",
+      "-package-name",
+      "xcodetoolswift",
+      "-incremental",
+      "-c",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift",
+      "-I",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "xcodetoolswift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "XcodeToolSwiftTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "XcodeToolSwiftTests",
+      "-package-name",
+      "xcodetoolswift",
+      "-incremental",
+      "-c",
+      "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/DataBase64Tests.swift",
+      "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/MacroUtilsTests.swift",
+      "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/StringWrapperTests.swift",
+      "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/VersionCompareTests.swift",
+      "-I",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "xcodetoolswift",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "XcodeToolSwift" : [
+
+    ],
+    "XcodeToolSwiftPackageDiscoveredTests" : [
+      "XcodeToolSwiftTests",
+      "XcodeToolSwift"
+    ],
+    "XcodeToolSwiftPackageTests" : [
+      "XcodeToolSwiftPackageDiscoveredTests",
+      "XcodeToolSwiftTests",
+      "XcodeToolSwift"
+    ],
+    "XcodeToolSwiftTests" : [
+      "XcodeToolSwift"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/XcodeToolSwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/Modules/XcodeToolSwiftPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/DataBase64.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/MacroUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/StringWrapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/UIConstants.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/VersionCompare.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Sources/XcodeToolSwift/XcodeToolSwift.swift"
+        }
+      ],
+      "outputFilePath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/sources"
+    },
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/XcodeToolSwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/sources"
+    },
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/sources"
+    },
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/DataBase64.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/MacroUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/StringWrapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/UIConstants.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/VersionCompare.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwift.build/XcodeToolSwift.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/XcodeToolSwiftPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/XcodeToolSwiftTests.swiftmodule.o"
+        }
+      ],
+      "outputFilePath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.product/Objects.LinkFileList"
+    },
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/DataBase64Tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/MacroUtilsTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/StringWrapperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/VersionCompareTests.swift"
+        }
+      ],
+      "outputFilePath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/sources"
+    },
+    "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/share/swift/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+    }
+  }
+}
