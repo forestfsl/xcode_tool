@@ -2,25 +2,28 @@
 
 ## Cursor Cloud specific instructions
 
-### What this repo is
-`xcode_tool` is a collection of macOS/iOS Objective-C developer utilities (see `README.markdown`):
-- `NSStringWrappeer/` — the only compilable unit: an `NSString(Wrapper)` category (Java `String`-style methods) plus an Xcode project and unit tests (`NSStringWrapperTests.m`).
-- `Shells/` — standalone bash utilities (`removeTailBlank.sh`, `convertImage.sh`, `dailyBuild.sh`).
-- `CodeSnippets/`, `Macros/`, `Encoding/` — source/snippets meant to be copied into a consuming Xcode project.
-- Root `*.sh` scripts (`setup_snippets.sh`, `setup_reveal.sh`, etc.) are macOS/Xcode installers that touch `~/Library/Developer/Xcode/...`.
+### 语言偏好
+除非项目另有说明，所有面向用户的解释和文档一律使用中文输出。
 
-There are **no package manifests** (no npm/pip/go/etc.) and **no long-running services** (no server, DB, or web app). "Running the app" means compiling/running the Objective-C code.
+### 本仓库是什么
+`xcode_tool` 是一组 macOS/iOS 的 Objective-C 开发工具（详见 `README.markdown`）：
+- `NSStringWrappeer/` —— 唯一可编译的模块：`NSString(Wrapper)` 分类（Java `String` 风格的方法），附带 Xcode 工程和单元测试（`NSStringWrapperTests.m`）。
+- `Shells/` —— 独立的 bash 工具脚本（`removeTailBlank.sh`、`convertImage.sh`、`dailyBuild.sh`）。
+- `CodeSnippets/`、`Macros/`、`Encoding/` —— 源码/代码片段，供拷贝进消费方 Xcode 工程使用。
+- 根目录的 `*.sh` 脚本（`setup_snippets.sh`、`setup_reveal.sh` 等）是 macOS/Xcode 安装脚本，会操作 `~/Library/Developer/Xcode/...`。
 
-### Building & running on Linux (this VM has no Xcode)
-The canonical dev environment is macOS + Xcode (`xcodebuild`), which does not exist on this Linux VM. Instead, the GNUstep + GCC Objective-C runtime is installed so the core Objective-C can be compiled and run. The Ubuntu GNUstep packages are built against the **GCC** Objective-C runtime, so compile with `clang -fobjc-runtime=gcc` (not `gnustep-2.0`).
+仓库中**没有任何包管理清单**（无 npm/pip/go 等），也**没有可长期运行的服务**（无服务端、数据库或 Web 应用）。“运行应用”在这里指编译并运行 Objective-C 代码。
 
-Non-obvious gotchas discovered during setup:
-- `objc/objc.h` lives under `/usr/lib/gcc/x86_64-linux-gnu/13/include` (add it with `-I`); it is not on the default clang search path.
-- There is no `/usr/lib/libobjc.so` symlink; link against the GCC copy with `-L/usr/lib/gcc/x86_64-linux-gnu/13 -lobjc`.
-- `-fconstant-string-class=NSConstantString` is required for `@"..."` literals.
-- The bundled GCC ObjC frontend is too old for modern syntax (`@autoreleasepool`, C99 for-loops), so use `clang`, not `gcc`, for the frontend.
+### 在 Linux 上构建与运行（本 VM 无 Xcode）
+标准开发环境是 macOS + Xcode（`xcodebuild`），本 Linux VM 上不存在。因此改用 GNUstep + GCC Objective-C 运行时来编译并运行核心 Objective-C 代码。Ubuntu 的 GNUstep 包是基于 **GCC** 的 Objective-C 运行时构建的，所以要用 `clang -fobjc-runtime=gcc` 编译（不要用 `gnustep-2.0`）。
 
-To build+run a driver that exercises `NSString(Wrapper)`:
+搭建过程中发现的非显而易见的坑：
+- `objc/objc.h` 位于 `/usr/lib/gcc/x86_64-linux-gnu/13/include`（需用 `-I` 显式加入），默认不在 clang 搜索路径里。
+- 没有 `/usr/lib/libobjc.so` 软链，需链接 GCC 那份：`-L/usr/lib/gcc/x86_64-linux-gnu/13 -lobjc`。
+- `@"..."` 字符串字面量需要 `-fconstant-string-class=NSConstantString`。
+- 自带的 GCC ObjC 前端过旧，不支持现代语法（`@autoreleasepool`、C99 for 循环），因此前端要用 `clang` 而非 `gcc`。
+
+构建并运行一个调用 `NSString(Wrapper)` 的驱动程序：
 ```bash
 source /usr/share/GNUstep/Makefiles/GNUstep.sh
 INCDIR=NSStringWrappeer/NSStringWrapper
@@ -31,10 +34,10 @@ clang -o /tmp/nsw_demo /tmp/nsw_demo/main.m "$INCDIR/NSStringWrapper.m" \
   -L/usr/lib -L/usr/lib/gcc/x86_64-linux-gnu/13 -lgnustep-base -lobjc -lm
 /tmp/nsw_demo
 ```
-(Provide your own `main.m` that `#import "NSStringWrapper.h"` and calls the category methods.)
+（需自备一个 `main.m`，其中 `#import "NSStringWrapper.h"` 并调用分类的方法。）
 
-### Tests
-The real tests (`NSStringWrappeer/NSStringWrapperTests/NSStringWrapperTests.m`) use Apple's SenTestingKit (`STAssert*` macros), which is only available under Xcode — they cannot run via GNUstep on Linux. To validate the library on Linux, replicate the assertions in a small `clang`-compiled driver (as above).
+### 测试
+真正的测试（`NSStringWrappeer/NSStringWrapperTests/NSStringWrapperTests.m`）使用 Apple 的 SenTestingKit（`STAssert*` 宏），只能在 Xcode 下运行，无法在 Linux 上通过 GNUstep 执行。要在 Linux 上验证该库，可用一个 `clang` 编译的小驱动程序复现这些断言（如上）。
 
-### Shell utilities
-`Shells/removeTailBlank.sh` uses BSD/macOS `sed -i ""` syntax; on Linux (GNU sed) drop the `""` argument (`sed -i`) or the command errors. This is a macOS-only script by design; do not "fix" it for Linux.
+### Shell 工具
+`Shells/removeTailBlank.sh` 使用 BSD/macOS 的 `sed -i ""` 语法；在 Linux（GNU sed）上需去掉 `""` 参数（`sed -i`），否则命令会报错。该脚本本就是 macOS 专用，不要为 Linux “修复”它。
