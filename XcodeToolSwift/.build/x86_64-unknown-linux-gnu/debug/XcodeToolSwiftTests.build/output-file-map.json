@@ -1,0 +1,29 @@
+{
+  "": {
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/master.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/DataBase64Tests.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/DataBase64Tests.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/MacroUtilsTests.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/MacroUtilsTests.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/StringWrapperTests.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/StringWrapperTests.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/Tests/XcodeToolSwiftTests/VersionCompareTests.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftTests.build/VersionCompareTests.swiftdeps"
+  }
+}

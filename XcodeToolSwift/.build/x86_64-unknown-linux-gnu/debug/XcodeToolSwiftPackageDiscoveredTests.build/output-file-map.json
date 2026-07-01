@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/master.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/XcodeToolSwiftTests.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/XcodeToolSwiftTests.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.derived/all-discovered-tests.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageDiscoveredTests.build/all-discovered-tests.swiftdeps"
+  }
+}

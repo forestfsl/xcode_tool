@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/master.swiftdeps"
+  },
+  "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.derived/runner.swift": {
+    "dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner.d",
+    "object": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner.swift.o",
+    "swiftmodule": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/workspace/XcodeToolSwift/.build/x86_64-unknown-linux-gnu/debug/XcodeToolSwiftPackageTests.build/runner.swiftdeps"
+  }
+}
